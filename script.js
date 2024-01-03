@@ -32,7 +32,7 @@ equal.addEventListener("click", function () {
 
     sub.textContent = a;
   } catch (err) {
-    alert("Should not be anything invalid!!!");
+    alert("Should not be anything invalid or empty!!!");
     display.value = "";
   }
 });
